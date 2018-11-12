@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyHospital</string>
+    <string name="title_activity_add_medical_history">AddMedicalHistory</string>
+</resources>
