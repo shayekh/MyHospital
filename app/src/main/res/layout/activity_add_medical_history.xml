@@ -55,6 +55,7 @@
             android:hint="Doctor Name"
             android:textStyle="bold"
             android:textSize="20sp"
+            android:id="@+id/dnameET"
             android:gravity="center_horizontal"
             android:layout_gravity="center"/>
     </android.support.v7.widget.CardView>
@@ -68,6 +69,7 @@
             android:layout_height="wrap_content"
             android:hint="Details"
             android:textStyle="bold"
+            android:id="@+id/ddetailsET"
             android:gravity="center_horizontal"
             android:textSize="20sp"
             android:layout_gravity="center"/>
@@ -81,6 +83,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Date"
+            android:id="@+id/ddateET"
             android:textStyle="bold"
             android:textSize="20sp"
             android:gravity="center_horizontal"
