@@ -56,6 +56,9 @@ public class AddMedicalHistory extends AppCompatActivity {
             imageFromCamera = encodeImage(bitmap, Bitmap.CompressFormat.JPEG, 70);
             imageView.setImageBitmap(bitmap);
         }
+         else if (resultCode == RESULT_CANCELED) {
+            Toast.makeText(this, "CANCELED ", Toast.LENGTH_LONG).show();
+        }
     }
 
     public static String encodeImage(Bitmap bitmap, Bitmap.CompressFormat compressFormat, int quality){
