@@ -82,6 +82,10 @@ public class AddMedicalHistory extends AppCompatActivity {
         {
             dateET.setError("This field must not be empty");
         }
+         else if(imageFromCamera==null)
+        {
+            Toast.makeText(this, "Take a Snap ", Toast.LENGTH_LONG).show();
+        }
         else {
             medical=new Medical(name,details,date,imageFromCamera);
             boolean status=medicalDatabaseSource.addMedical(medical);
