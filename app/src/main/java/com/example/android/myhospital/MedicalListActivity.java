@@ -26,10 +26,5 @@ public class MedicalListActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    public void onBackPressed() {
-        Intent intent=new Intent(MedicalListActivity.this,MainActivity.class);
-        startActivity(intent);
-        //super.onBackPressed();
-    }
+  
 }
